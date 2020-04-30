@@ -1,5 +1,5 @@
-// 3401852
-// 5099916
+"use strict";
+
 let openFile = function(event) {
     let input = event.target;
 
@@ -26,6 +26,8 @@ function proceso(texto) {
         // totalFuel += fuel;
         totalFuel += fuelParaFuel;
     }
+    // 3401852
+    // 5099916
     console.log(totalFuel);
 }
 
